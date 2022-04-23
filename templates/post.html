@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario POST</title>
+</head>
+<body>
+    <h1>Formulário POST</h1>
+    <form action="{{ url_for('userpage') }}" method="post">
+        <p>User <input type="text" name="user"/></p>
+        <p>Pass <input type="password" name="passw"/></p>
+        <input type="submit" value="Acessar" />
+    </form>
+</body>
+</html>
